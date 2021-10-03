@@ -9,17 +9,27 @@ import SwiftUI
 
 struct PointsView: View {
     @EnvironmentObject var settings: AppSettings
-
+    @Environment(\.currentPointsValue) var currentPointsEnv
+    @Binding var currentPoints: Int
     var body: some View {
-        Text("Points: \(settings.points)")
-        Button("Decrease Points") {
+
+        Button("Decrease  @State-@Binding \(currentPoints)") {
+            currentPoints -= 1
+        }
+        
+        Button("Decrease @EnvironmentObject \(settings.points)") {
             settings.points -= 1
+        }
+
+        Button("Decrease @Environment: \(currentPointsEnv.wrappedValue)") {
+            currentPointsEnv.wrappedValue -= 1
         }
     }
 }
 
 struct PointsView_Previews: PreviewProvider {
     static var previews: some View {
-        PointsView()
+        PointsView(currentPoints: .constant(0))
     }
 }
+

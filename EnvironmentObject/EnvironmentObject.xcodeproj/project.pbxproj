@@ -14,6 +14,7 @@
 		5E7A30B9270980FA00A1BA84 /* PointsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A30B8270980FA00A1BA84 /* PointsView.swift */; };
 		5E7A30BB2709811D00A1BA84 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A30BA2709811D00A1BA84 /* AppSettings.swift */; };
 		5E7A30BD2709817F00A1BA84 /* IntermediateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A30BC2709817F00A1BA84 /* IntermediateView.swift */; };
+		5E7A30BF27099E5400A1BA84 /* CurrentPointsKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E7A30BE27099E5400A1BA84 /* CurrentPointsKey.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		5E7A30B8270980FA00A1BA84 /* PointsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PointsView.swift; sourceTree = "<group>"; };
 		5E7A30BA2709811D00A1BA84 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
 		5E7A30BC2709817F00A1BA84 /* IntermediateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediateView.swift; sourceTree = "<group>"; };
+		5E7A30BE27099E5400A1BA84 /* CurrentPointsKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentPointsKey.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				5E7A30BC2709817F00A1BA84 /* IntermediateView.swift */,
 				5E7A30B8270980FA00A1BA84 /* PointsView.swift */,
 				5E7A30BA2709811D00A1BA84 /* AppSettings.swift */,
+				5E7A30BE27099E5400A1BA84 /* CurrentPointsKey.swift */,
 				5E7A30AE27097E3600A1BA84 /* Assets.xcassets */,
 				5E7A30B027097E3600A1BA84 /* Preview Content */,
 			);
@@ -148,6 +151,7 @@
 			files = (
 				5E7A30BB2709811D00A1BA84 /* AppSettings.swift in Sources */,
 				5E7A30AD27097E3100A1BA84 /* ContentView.swift in Sources */,
+				5E7A30BF27099E5400A1BA84 /* CurrentPointsKey.swift in Sources */,
 				5E7A30BD2709817F00A1BA84 /* IntermediateView.swift in Sources */,
 				5E7A30AB27097E3100A1BA84 /* EnvironmentObjectApp.swift in Sources */,
 				5E7A30B9270980FA00A1BA84 /* PointsView.swift in Sources */,

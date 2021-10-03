@@ -8,8 +8,9 @@
 import SwiftUI
 
 struct IntermediateView: View {
+    @Binding var currentPoints: Int
     var body: some View {
-        NavigationLink(destination: PointsView()) {
+        NavigationLink(destination: PointsView(currentPoints: $currentPoints)) {
             Text("Show Detail View (again)")
         }
     }
@@ -17,6 +18,6 @@ struct IntermediateView: View {
 
 struct IntermediateView_Previews: PreviewProvider {
     static var previews: some View {
-        IntermediateView()
+        IntermediateView(currentPoints: .constant(0))
     }
 }
